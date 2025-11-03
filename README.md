@@ -1,29 +1,38 @@
-# Student Performance Analysis
+🧮 Student Performance Analyzer
 
-This project analyzes student academic performance and attendance using Python libraries such as NumPy, Pandas, and Matplotlib. It calculates total and average marks, determines subject-wise averages, and visualizes the relationship between attendance and performance through graphs.
+A Python-based data analytics project that analyzes student academic performance using Pandas, NumPy, and Matplotlib.
+It provides insights such as grades, ranks, correlations, distributions, and visual trends — all generated from a simple CSV file.
 
-## Features
-- Calculates total and average marks for each student.
-- Computes subject-wise averages using NumPy.
-- Analyzes the correlation between attendance and average performance.
-- Visualizes results using bar, line, and pie charts with Matplotlib.
+📘 Project Overview
 
-## Technologies Used
-- Python 3
-- NumPy
-- Pandas
-- Matplotlib
+This program allows you to upload a CSV file of student scores, performs feature engineering (like Total, Average, Grade, Rank),
+and generates multiple visualizations to understand class performance better.
 
-## Dataset
-The dataset (`student_scores.csv`) contains:
-- **Name** – Student name  
-- **Math, Science, English** – Marks obtained  
-- **Attendance** – Attendance percentage  
+It also provides analytical insights such as:
 
-## How to Run
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/student-performance-analysis.git
+Top and bottom performers
 
-## okkkkkkk
+Subject-wise averages
 
+Correlation between attendance and academic performance
+
+Grade distribution
+
+⚙️ Features
+
+✅ File Input Validation – prompts until a valid .csv path is given
+✅ Feature Engineering – computes Total, Average, Grade, and Rank
+✅ Statistical Analysis – calculates subject-wise averages and correlation
+✅ Top/Bottom Students – displays best and weakest performers
+✅ Visualizations:
+
+Bar Chart – Subject average comparison
+
+Scatter Plot – Attendance vs. Average (with trend line)
+
+Box Plot – Subject-wise performance comparison
+
+Histogram – Overall performance distribution
+
+Pie Chart – Grade distribution
+✅ Auto-labeling & Styled Charts using ggplot
